@@ -1,7 +1,16 @@
+import { Metadata } from 'next'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Image from 'next/image'
 import { CheckCircle2, History, Target, ShieldCheck } from 'lucide-react'
+
+export const metadata: Metadata = {
+  title: 'About Define Property | Luxury Real Estate Advisor',
+  description: 'Learn about Define Property, Mumbai\'s premier luxury real estate advisory with over 15 years of market expertise in Dadar and Bandra.',
+  alternates: {
+    canonical: '/about',
+  },
+}
 
 export default function AboutPage() {
   return (

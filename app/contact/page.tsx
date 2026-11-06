@@ -1,7 +1,16 @@
+import { Metadata } from 'next'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import ContactForm from '@/components/ContactForm'
 import { MapPin, Mail, Clock } from 'lucide-react'
+
+export const metadata: Metadata = {
+  title: 'Contact Us | Premium Mumbai Real Estate Enquiry',
+  description: 'Get in touch with Define Property for exclusive luxury real estate consultations in Dadar, Mumbai. Our senior advisors are ready to assist you.',
+  alternates: {
+    canonical: '/contact',
+  },
+}
 
 export default function ContactPage() {
   return (

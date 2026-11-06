@@ -1,7 +1,16 @@
+import { Metadata } from 'next'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import FeaturedListings from '@/components/FeaturedListings'
-import { Search, Filter, SlidersHorizontal } from 'lucide-react'
+import { Search, SlidersHorizontal } from 'lucide-react'
+
+export const metadata: Metadata = {
+  title: 'Luxury Properties for Sale in Mumbai',
+  description: 'Browse our exclusive collection of luxury penthouses, heritage villas, and premium apartments in Dadar, Bandra, and South Mumbai.',
+  alternates: {
+    canonical: '/listings',
+  },
+}
 
 export default function ListingsPage() {
   return (
