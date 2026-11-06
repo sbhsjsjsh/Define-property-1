@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     description: 'Luxury real estate advisory in Mumbai.',
     images: ['/src/assets/images/hero_mumbai_luxury_1793993695588.jpg'],
   },
+  verification: {
+    google: 'ZS7Ji6uzAvCK4ZWV-kfNVwciVcpp0w9o9JPaGPKRc4Q',
+  },
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
